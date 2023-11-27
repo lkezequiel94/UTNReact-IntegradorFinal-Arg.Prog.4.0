@@ -1,0 +1,65 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.App {
+  max-width: 400px;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #000;
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+label {
+  display: block;
+  margin: 8px 0;
+  font-size: 0.9em;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+  font-size: 0.9em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 8px 0;
+  font-size: 1.2em;
+}
+
+.TaskItem {
+  display: flex;
+  align-items: center;
+}
+
+.TaskItem span {
+  flex-grow: 1;
+  margin-right: 8px;
+}
+
+.TaskItem li {
+  margin: 8px 0;
+  font-size: 0.9em;
+}
+
+#Check {
+  margin-right: 10px;
+}
